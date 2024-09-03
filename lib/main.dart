@@ -69,7 +69,7 @@ class _BankingFormState extends State<BankingForm> {
               TextFormField(
                 controller: _accountController,
                 decoration: const InputDecoration(
-                  labelText: 'Número da Conta',
+                  labelText: 'Numero da Conta',
                   icon: Icon(Icons.account_balance),
                 ),
                 keyboardType: TextInputType.number,
